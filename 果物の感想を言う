@@ -1,0 +1,14 @@
+fruits = {
+    'りんご': '健康によい！',
+    'バナナ': '腹持ちが良い！',
+    'ぶどう': '高級感がある！',
+    'みかん': '美容に良い！',
+    'メロン': 'みずみずしい！'
+}
+
+favorite = input('好きな果物を教えてごらん: ')
+
+if favorite in fruits:
+    print(fruits[favorite])
+else:
+    print('変わった好みだな！')
