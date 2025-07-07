@@ -1,0 +1,20 @@
+A = float(input('ここに数字を入力してください。'))
+B = input('ここに演算子を入力してください')
+C = float(input('ここに数字を入力してください'))
+
+def keisan (A,B,C):
+  if B == '+' :
+    print(A + C)
+  elif B == '-' :
+    print(A - C)
+  elif B == '*' :
+    print(A * C)
+  elif B == '/' :
+    print(A / C)
+  else:
+    print('演算子を入力してください')
+
+while True :
+  keisan (A,B,C)
+  if input('「終了」と入力してください。') == '終了':
+    break
